@@ -5,50 +5,41 @@
 }
 
 .header {
-  /* background: aqua !important; */
-  /* z-index: 5; */
   color: black;
   height: 100px;
-  align-items: center;
-  justify-content: center;
   border-bottom: 2px solid black;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   width: 70%;
 }
 
 .header ul {
   display: flex;
   float: right;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
   padding: 40px;
-  /* height: auto; */
-  /* align-items: center; */
-
-  /* background-color: aqua; */
 }
 
 .header ul li {
   list-style: none;
-  /* align-items: flex-start; */
   margin-right: 50px;
   font-size: 20px;
 }
 
 .header ul li.active {
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid cadetblue;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 .section-a {
   display: flex;
   width: 70%;
   margin: auto;
-  margin-bottom: 50px;
-  /* border: 1px solid black; */
-  /* border-radius: 100%; */
-  /* box-shadow: inset; */
+  margin-bottom: 150px;
+  background-color: cadetblue;
 }
 
 .section-a .text-section {
@@ -69,12 +60,11 @@
 
 .section-a .text-section .text-section-body {
   text-align: center;
-  /* justify-content: center; */
 }
 
 hr {
   width: 80%;
-  margin: auto;
+  margin: 100px auto;
 }
 
 .section-b {
@@ -83,14 +73,12 @@ hr {
   grid-gap: 2rem;
   width: 70%;
   margin: 50px auto;
-  /* overflow: hidden; */
-  /* padding: 200px; */
 }
 
 .section-b .section-b-child1 {
-  /* width: 70%; */
   display: flex;
   flex-direction: column;
+  background-color: cadetblue;
 }
 
 .section-b .section-b-child1 img {
@@ -112,6 +100,12 @@ hr {
   text-align: center;
 }
 
+.section-b .section-b-child2 {
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+}
+
 .section-b .section-b-child2 img {
   width: 100%;
 }
@@ -131,6 +125,12 @@ hr {
   text-align: center;
 }
 
+.section-b .section-b-child3 {
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+}
+
 .section-b .section-b-child3 img {
   width: 100%;
 }
@@ -148,6 +148,12 @@ hr {
 
 .section-b .section-b-child3 .text-section .text-section-body {
   text-align: center;
+}
+
+.section-b .section-b-child4 {
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
 }
 
 .section-b .section-b-child4 img {
